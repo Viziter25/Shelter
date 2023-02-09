@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our pets</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="contaiter__logo">
+                    <h1 class="header__logo">Cozy House</h1>
+                    <p class="header__logo__text">Shelter for pets in Boston</p>
+                </div>
+
+                <!-- burger menu -->
+                <button class="burger">
+                    <span class="burger__item"></span>
+                </button>
+
+                <!-- затемнение -->
+
+                <div class="dark active"></div>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list__item">
+                            <a href="../main/index.html" class="nav__link">About the shelter</a>
+                        </li>
+                        <li class="nav__list__item">
+                            <a href="../pets/index.html" class="nav__link"><span class="span__text">Our pets</span></a>
+                        </li>
+                        <li class="nav__list__item">
+                            <a href="../main/index.html#help" class="nav__link">Help the shelter</a>
+                        </li>
+                        <li class="nav__list__item">
+                            <a href="#contacts" class="nav__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- pets -->
+
+    <div class="pets">
+        <a name="pets"></a>
+        <div class="container">
+            <div class="pets__contaiter">
+                <div class="pets__title">
+                    <h3 class="pets__title__item">Our friends who<br> are looking for a house</h3>
+                </div>
+                <div class="about__slider">
+
+                    <!-- <div class="slider__card">
+                        <img src="" alt="cat" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="dog" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="dog" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="dog" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="cat" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="dog" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="dog" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <img src="" alt="cat" class="card__image">
+                        <p class="card__name"></p>
+                        <div class="card__button">
+                            <button class="card__more">Learn more</buttonc>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="pets__button__get">
+                    <div class="pets__button__items">
+                        <div class="pets__list__item">
+                            <button class="slider__first" type="button" >
+                                <<
+                            </button>
+                        </div>
+                        <div class="pets__list__item">
+                            <button class="slider__back" type="button" >
+                               <
+                            </button>
+                        </div>
+                        <div class="pets__list__item">
+                            <button class="slider__number">1</button>
+                        </div>
+                        <div class="pets__list__item">
+                            <button class="slider__next">
+                                >
+                            </button>
+                        </div>
+                        <div class="pets__list__item">
+                            <button class="slider__end">
+                                >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <a name="contacts"></a>
+        <div class="container">
+            <div class="footer__container">
+                <div class="contacts">
+                    <h3 class="contacts__title">For questions and suggestions</h3>
+                    <div class="contacts__list">
+                        <div class="contacts__item">
+                            <a href="mailto:" class="icon__email"><img src="../../assets/icons/icon-email.svg" alt="" class="email__img"></a>
+                            <a href="mailto:" class="contacts__link__email">email@shelter.com</a>
+                        </div>
+                        <div class="contacts__item">
+                            <a href="tel:+13 674 567 75 54" class="icon__phone"><img src="../../assets/icons/icon-phone.svg" alt="" class="phone__img"></a>
+                            <a href="tel:+13 674 567 75 54" class="contacts__link__phone">+13 674 567 75 54</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__two">
+                    <h3 class="contacts__title">We are waiting for your visit</h3>
+
+
+                    <div class="contacts__list  contacts__list__two">
+                        <div class="location__item location__item__two">
+                            <a href="https://www.google.by/maps/@54.6821052,25.2759799,14z?hl=ru&authuser=0" class="icon__location"><img src="../../assets/icons/icon-marker.svg" alt="" class="location__img"></a>
+                            <a href="https://www.google.by/maps/@54.6821052,25.2759799,14z?hl=ru&authuser=0" class="contacts__link__location">1 Central Street, Boston (entrance from the store)</a>
+                        </div>
+                        <div class="location__item location__item__two">
+                            <a href="https://www.google.by/maps/@54.6821052,25.2759799,14z?hl=ru&authuser=0" class="icon__location__two"><img src="../../assets/icons/icon-marker.svg" alt="" class="location__img"></a>
+
+
+                            <a href="https://www.google.by/maps/@54.6821052,25.2759799,14z?hl=ru&authuser=0" class="contacts__link__location">18 South Park, London </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__image">
+                    <img class="footer__image__item" src="../../assets/images/footer-puppy.svg" alt="puppy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- modal=========== -->
+    <div class="modal">
+        <div class="modal__pets">
+            <div class="modal__window">
+                <button class="modal__close">
+                    <img src="../../assets/icons/icon-close.svg" alt="arrow">
+                </button>
+                <div class="modal__content">
+                    <!-- <div class="modal__image">
+                        <img src="../../assets/images/jennifer.svg" class="modal__image__item" alt="dog-jennifer">
+                    </div>
+                    <div class="modal__info">
+                        <h3 class="modal__title__name">Jennifer</h3>
+                        <h4 class="modal__breed">Dog - Labrador</h4>
+                        <p class="modal__text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                        <div>
+
+                        </div>
+                        <ul class="modal__list">
+                            <li class="modal__list__item"><span><b>Age:</b> 2 months</span></li>
+                            <li class="modal__list__item"><span><b>Inoculations:</b> none</span></li>
+                            <li class="modal__list__item"><span><b>Diseases:</b> none</span></li>
+                            <li class="modal__list__item"><span><b>Parasites:</b> none</span></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+<script src="./app.js"></script>
+
+
+</body>
+</html>
